@@ -1,0 +1,21 @@
+.wrap{width: 1000px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.a{
+    background: black;
+    width: 1000px;
+    height: 200px;
+}
+.b{
+    background: red;
+    width: 700px;
+    height: 600px;
+    
+}
+.c{
+    background: coral;
+    width: 300px;
+    height: 600px;
+}

@@ -1,0 +1,30 @@
+.zzz{
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+}
+.h{
+    background: darkseagreen;
+    width: 800px;
+    height: 150px;
+}
+.n{
+    background: gold;
+    width: 800px;
+    height: 100px;
+}
+.m{
+    background: red;
+    width: 600px;
+    height: 450px;
+}
+.aside{
+    background: aqua;
+    width: 200px;
+    height: 450px;
+}
+.f{
+    background: darkmagenta;
+    width: 800px;
+    height: 100px;
+}

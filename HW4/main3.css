@@ -1,0 +1,36 @@
+.father {
+
+    width: 600px;
+    flex-wrap: wrap;
+
+}
+
+.w {
+    background: dimgray;
+    width: 600px;
+    height: 200px;
+}
+
+.bw {
+    background: coral;
+    width: 200px;
+    height: 200px;
+}
+
+.bbw {
+    background: red;
+    width: 200px;
+    height: 200px;
+}
+
+.hw {
+    background: gold;
+    width: 200px;
+    height: 200px;
+}
+
+.con {
+    background: darkseagreen;
+    width: 600px;
+    height: 600px;
+}

@@ -1,0 +1,29 @@
+.father{
+    display: flex;
+    flex-wrap: wrap;
+}
+.background_dimgray{
+    background: dimgray;
+}
+.width600{
+    width: 600px;
+}
+.background_coral{
+    background: coral;
+}
+.height200{
+    height: 200px;
+}
+.background_gold{
+    background: gold;
+}
+.background_darkseagreen{
+    background: darkseagreen;
+    height: 600px;
+}
+.background_red{
+    background: red;
+}
+.width200{
+    width: 200px;
+}

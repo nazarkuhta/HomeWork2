@@ -1,0 +1,31 @@
+.width800{
+    width: 800px;
+}
+.height450{
+    height: 450px;
+}
+.height100{
+    height: 100px;
+}
+.background_darkseagreen{
+    background: darkseagreen;
+    height: 150px;
+}
+.background_red{
+    background: red;
+    width: 600px;
+}
+.background_aqua{
+    background: aqua;
+    width: 200px;
+}
+.background_darkmagenta{
+    background: darkmagenta;
+}
+.wrap{
+    flex-wrap: wrap;
+    display: flex;
+}
+.background_gold{
+    background: gold;
+}

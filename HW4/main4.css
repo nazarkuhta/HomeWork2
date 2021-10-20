@@ -2,6 +2,7 @@
     flex-wrap: wrap;
     width: 800px;
     height: 800px;
+    display: flex;
 }
 .h{
     background: darkseagreen;

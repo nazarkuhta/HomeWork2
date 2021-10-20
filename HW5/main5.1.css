@@ -1,0 +1,21 @@
+.background_black{
+    height: 200px;
+    background: black;
+}
+.background_red{
+    width: 700px;
+    height: 600px;
+    background: red;
+}
+.background_coral{
+    width: 300px;
+    height: 600px;
+    background: coral;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.width1000{
+    width: 1000px;
+}

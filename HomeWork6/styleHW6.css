@@ -1,0 +1,190 @@
+body {
+    font-family: 'Roboto Light';
+    height: 3000px;
+}
+
+.soc_icon {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: aqua;
+    column-gap: 5px;
+    padding: 0 25px;
+    list-style: none;
+}
+
+.soc_icon__link {
+
+    width: 25px;
+    height: 5px;
+    background: darkslategrey;
+
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header_top {
+    padding: 10px 0 20px;
+    background: whitesmoke;
+    position: relative;
+}
+
+.header_top_grid {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background: darkslategrey;
+}
+
+.nav_item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav_item a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: color .5s;
+    color: darkslategrey;
+}
+
+.nav_item a:hover {
+    color: white;
+}
+.header_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 25px;
+    padding: 100px 0;
+    align-items: center;
+}
+.header_text{
+    width: 80%;
+    line-height: 24px;
+    text-align: center;
+}
+.header{
+    background:aqua;
+
+}
+.header_main button{
+    margin-top: 25px;
+    background: darkslategrey;
+    width: 300px;
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+.products_title{
+    align-items: center;
+}
+.products{
+    padding: 100px;
+    background: whitesmoke;
+}
+.products_grid{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+.products_list{
+    display: flex;
+    column-gap: 30px;
+}
+.products_item{
+    flex-grow: 1;
+}
+.products_item p{
+    text-align: center;
+    margin-top: 15px;
+}
+.products_item_img{
+    height: 200px;
+    background: darkslategrey;
+    border-radius: 10px;
+}
+.about{
+    background: darkslategrey;
+    padding: 50px 0;
+}
+.about_grid{
+    display: flex;
+    justify-content: space-between;
+}
+.about_card{
+    width: 30%;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    color: #ffff;
+    transition :all 0.75s ;
+}
+.about_photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+.about_name{
+
+}
+.about_card:hover{
+    border-color: aqua ;
+}
+.nav_button{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background: aqua;
+    right: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.nav_button span{
+    display: inline-block;
+    width: 80%;
+    height: 7px;
+    background: white;
+    position: relative;
+}
+.nav_button span::before, .nav_button span::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: absolute;
+
+}
+.nav_button span::after{
+    bottom: -12px;
+}
+.nav_button span::before{
+    top: -12px;
+}
